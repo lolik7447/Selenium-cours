@@ -26,9 +26,7 @@ try:
     assert "Congratulations! You have successfully registered!" == welcome_text
 
 finally:
-    # успеваем скопировать код за 10 секунд
     time.sleep(3)
     # закрываем браузер после всех манипуляций
     browser.quit()
 
-# не забываем оставить пустую строку в конце файла
