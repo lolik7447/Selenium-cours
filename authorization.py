@@ -26,9 +26,9 @@ def test_open_link(browser, number):
     login.click()
 
     input1 = browser.find_element(By.NAME, "login")
-    input1.send_keys("lolik7447@gmail.com")
+    input1.send_keys("********")
     input2 = browser.find_element(By.NAME, "password")
-    input2.send_keys("Qwaszx1993")
+    input2.send_keys("******")
     browser.find_element(By.CSS_SELECTOR, ".sign-form__btn").click()
     answer = str(math.log(int(time.time())))
     input3 = wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'ember-text-area')))
